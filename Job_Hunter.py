@@ -136,7 +136,7 @@ while True:
                   # Add header as key/value pair to attachment part
                 part.add_header(
                     "Content-Disposition",
-                    f"attachment; filename= {filename}",
+                    f"attachment; filename= {sender_name}_CV.pdf",
                   )
                 msg.attach(part)
             except Exception as e:
