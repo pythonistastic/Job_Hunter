@@ -91,6 +91,7 @@ while True:
         
         #not a necessary  step but to manipulate the email list
         df = remails
+        print("these are the emails", df)
         
         start = 0
         count = 1
@@ -105,6 +106,7 @@ while True:
                 print('Program initiated...')
                 time.sleep(2)
                 print('Will send an email to companies in the following order -->',email)
+                send_email = "Y"
                 if send_email == 'N':
                     print('Program interrupted!')
                     break
@@ -174,4 +176,3 @@ while True:
 
 
 window.close()
-
