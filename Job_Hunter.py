@@ -1,9 +1,5 @@
 import PySimpleGUI as sg
-#imports for extracting emails
-from PIL import Image 
-from pytesseract import pytesseract
-import re
-import os
+
 #---------------------- 
 #imports for sending emails
 import smtplib
@@ -14,7 +10,6 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase 
 from email import encoders
 import time
-import pandas as pd
   
 # Add some color
 # to the window
