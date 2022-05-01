@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+#imports for extracting emails
 
 #---------------------- 
 #imports for sending emails
@@ -30,6 +31,7 @@ layout = [
         
     [sg.Text("Please enter Receiver's Email, Vacancy Name\nSeperate with , for multiple entries", font=('', 15, ''))],
     [sg.Text('Email', size =(15, 1)), sg.InputText(key='-remail-')],
+    [sg.Text('Email Subject', size =(15, 1)), sg.InputText(key='-subject-')],
     [sg.Text('Vacancy', size =(15, 1)), sg.InputText(key='-vacancy-')],
         
     ],
@@ -75,6 +77,7 @@ while True:
         sender_name = values['-name-']
         sender_email = values['-email-']
         password = values['-password-']
+        emailSubject = values['-subject-']
         #split emails with ,
         remails = values['-remail-'].split(", ")
         #split jobs with ,
@@ -116,7 +119,7 @@ while True:
                 msg['To'] = formataddr((name, email))
 
             msg['From'] = formataddr((sender_name, sender_email))
-            msg['Subject'] = '6 years experienced person seeking a job'
+            msg['Subject'] = emailSubject
 
             if position.lower() == 'none':
                 msg.attach(MIMEText(cover.format(x = f_position)))
