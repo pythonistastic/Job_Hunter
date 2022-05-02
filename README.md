@@ -12,3 +12,8 @@ To use this code/software you need the following:
 <br>1- Download JobHunterSetup.exe file to setup the software on your PC
 <br>2- Use the Cover Letter template in the project
 <br>3- Turn on "Less Secure App Access" in your Gmail settings google account before using the software
+
+
+Important points:
+- The {x} in the cover letter will be replaced with the vacancy name, so please dont change it.
+- When entering multiple emails and vacancies separate it with a , with a space after it. (e.g: abc@gmail.com, efg@hotmail.com)
