@@ -16,4 +16,4 @@ To use this code/software you need the following:
 
 Important points:
 - The {x} in the cover letter will be replaced with the vacancy name, so please dont change it.
-- When entering multiple emails and vacancies separate it with a , and a space after it. (e.g: abc@gmail.com, efg@hotmail.com)
+- When entering multiple emails and vacancies separate it with a , and a space after it. <br>(e.g: abc@gmail.com, efg@hotmail.com)
