@@ -1,5 +1,5 @@
 # Job_Hunter
-A GUI tool to send resumes automatically using Gmail only, optimizing the time to find a job.
+A GUI tool to send multiple resumes in one click automatically using Gmail only, optimizing the time to find a job.
 
 To use this code/software you need the following:
   - If you know Python Coding:
